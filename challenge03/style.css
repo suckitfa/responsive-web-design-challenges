@@ -32,10 +32,13 @@ body {
   max-width: 750px;
 }
 
+/* 这里的代码写的很冗余 */
 .intro-content h2,
 .intro-content p {
   width: 50%;
 }
+
+
 .wraper {
   width: 100%;
   background: #23424a;
