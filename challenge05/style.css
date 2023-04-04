@@ -1,5 +1,9 @@
 *{box-sizing: border-box; margin: 0;padding: 0;}
 
+:root {
+    font-size: 16px;
+}
+
 .container {
     color: white;
     background-color: #23424A;
@@ -20,8 +24,17 @@
 .btn {
     display: inline-block;
     color: inherit;
+    /* padding: 1rem 2rem;
+    border-radius: 2rem; */
     padding: 1em 2em;
+    border-radius: 2em;
     text-decoration: none;
     background-color: #38CFD9;
-    border-radius: 2em;
+}
+
+/* adding some anmation to hover btn */
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
 }
