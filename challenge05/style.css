@@ -7,7 +7,14 @@
 }
 .intro {
     padding: 3em;
-    width: 50%;
+    /* 
+        In this first week, we've looked at:
+            1. Using percentages for widths
+            2. Avoiding to set heights
+            3.Using max-width 
+    */
+    /* While there is nothing overly complicated with any of that, being comfortable with these things is the key to mastering responsive layouts. */
+   max-width: 750px;
 }
 
 .btn {
