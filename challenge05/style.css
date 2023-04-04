@@ -1,0 +1,20 @@
+*{box-sizing: border-box; margin: 0;padding: 0;}
+
+.container {
+    color: white;
+    background-color: #23424A;
+    margin: 0 auto;
+}
+.intro {
+    padding: 3em;
+    width: 50%;
+}
+
+.btn {
+    display: inline-block;
+    color: inherit;
+    padding: 1em 2em;
+    text-decoration: none;
+    background-color: #38CFD9;
+    border-radius: 2em;
+}
