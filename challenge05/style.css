@@ -1,24 +1,31 @@
 *{box-sizing: border-box; margin: 0;padding: 0;}
 
 :root {
-    font-size: 16px;
+    font-size: 21px;
 }
 
 .container {
     color: white;
     background-color: #23424A;
-    margin: 0 auto;
+    /* border: 1px solid red; */
 }
+
+h1 {
+    font-size: 3rem;
+}
+
 .intro {
+    /* border: 1px solid green; */
+    margin: 0 auto;
     padding: 3em;
-    /* 
-        In this first week, we've looked at:
-            1. Using percentages for widths
-            2. Avoiding to set heights
-            3.Using max-width 
-    */
-    /* While there is nothing overly complicated with any of that, being comfortable with these things is the key to mastering responsive layouts. */
-   max-width: 750px;
+    max-width: 750px;
+}
+.intro p {
+    margin-bottom: 3em;
+}
+.intro__text {
+    /* border: 1px solid red; */
+    width: 70%;
 }
 
 .btn {
@@ -26,9 +33,10 @@
     color: inherit;
     /* padding: 1rem 2rem;
     border-radius: 2rem; */
-    padding: 1em 2em;
-    border-radius: 2em;
+    padding: .75em 2em;
+    border-radius: 100px;
     text-decoration: none;
+    text-transform: uppercase;
     background-color: #38CFD9;
 }
 
