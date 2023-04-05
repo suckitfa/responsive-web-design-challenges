@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 21px;
+}
+
+.container {
+    background-color:  #23424A;
+    color: #fff;
+}
+
+.intro {
+    padding: 4em;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.intro__text {
+    width: 70%;
+    border: 1px solid green;
+}
+
+.intro p {
+    margin-bottom: 2em;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: .5em;
+}
