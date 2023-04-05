@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 1rem = 16px */
+body {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #23423A;
+    color: #fff;
+}
+.hero__text {
+    width: 70%;
+}
+.hero p {
+    /* font-size:21px */
+    margin-bottom: 2em;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #23423A;
+    font-weight: 900;
+    background-color: #38cfd9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75;
+}
