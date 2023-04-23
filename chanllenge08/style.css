@@ -89,12 +89,7 @@ header {
     padding: 0;
     list-style: none;
     display: flex;
-    /* justify-content: space-between; */
-
     font-size: .9rem;
-
-    /* border: 2px solid green; */
-
 }
 
 /* select the nav__item that has  front it*/
@@ -158,4 +153,23 @@ header {
     text-align: center;
     color: #fff;
     background-color: #136c72;
+}
+
+/* add media query for the  */
+/* 0-600px */
+@media (max-width: 600px) {
+    .row {
+        display: block;
+    }
+    .hero__text,
+    .hero__img,
+    .primary-content,
+    .sidebar{
+        width: 100%;
+    }
+
+    .hero__img {
+        margin-top: 2em;
+    }
+
 }

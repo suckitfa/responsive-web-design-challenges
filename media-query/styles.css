@@ -1,0 +1,40 @@
+*,
+*::before ,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.example {
+    width: 90%;
+    margin:  5em auto;
+    padding: 10em 0;
+    background-color: lightblue;
+}
+
+/* 600px or bigger */
+@media (min-width:600px)  {
+    .example {
+        width: 80%;
+        margin:  5em auto;
+        padding: 10em 0;
+        background-color: red;
+    }
+}
+
+/* 600px or smaller */
+@media (max-width:600px) {
+    /* .example {
+        background-color: yellow;
+    } */
+}
+
+@media (min-width:800px) {
+    .example {
+        background-color: green;
+    }
+}
