@@ -158,9 +158,11 @@ header {
 /* add media query for the  */
 /* 0-600px */
 @media (max-width: 600px) {
+    
     .row {
         display: block;
     }
+
     .hero__text,
     .hero__img,
     .primary-content,
