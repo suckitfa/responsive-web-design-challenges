@@ -28,6 +28,9 @@ section {
 .container {
     width: 85%;
     margin: 0 auto;
+
+    /* don't make the with too long */
+    max-width: 1128px;
 }
 
 .section-title {
@@ -66,4 +69,23 @@ section {
 .section-four {
     background-color: #824936;
     color: #fff;
+}
+
+@media (min-width:800px) {
+   .row {
+    display: flex;
+   } 
+
+   .col {
+    width: 100%;
+   }
+
+   /* 设置第二个col的maring-left为4em */
+   .col+.col {
+    margin-left: 4em;
+   }
+
+   .intor__title {
+    font-size: 3.75rem;
+   }
 }
