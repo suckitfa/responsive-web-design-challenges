@@ -47,6 +47,11 @@ section {
     padding: 200px 0;
     text-align: center;
     color: #824936;
+    /* never give them fixed height , vh => view port height*/
+    min-height: 660px;
+
+    display: flex;
+    align-items: center;
 }
 
 .intor__text {
