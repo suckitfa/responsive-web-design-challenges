@@ -77,6 +77,14 @@ section {
 }
 
 @media (min-width:800px) {
+    .nav-toggle {
+        display: none;
+    }
+    
+    .nav {
+        display: flex;
+    }
+
    .row {
     display: flex;
    } 
